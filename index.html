@@ -1,0 +1,120 @@
+<!doctype html><html lang="es-EC"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Georgios Mediterranean Grill · Samborondón</title>
+<meta name="description" content="Cocina greco-chipriota en La Puntilla, Samborondón. Ygia · Agapi · Xara.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--az:#0d3b66;--az2:#082847;--az3:#061d33;--ol:#6b7a3a;--ol2:#a3ad7a;--te:#c8643b;--cr:#faf7f2;--tx:#1f2a36;--w:1120px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:"DM Sans",system-ui,sans-serif;color:var(--tx);background:var(--cr);line-height:1.7;font-size:17px}
+h1,h2,h3,.serif{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600}a{color:inherit}
+.wrap{max-width:var(--w);margin:auto;padding:0 1.4rem}
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(8,40,71,.92);backdrop-filter:blur(8px);color:#fff}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:68px}
+.logo{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.mark{width:40px;height:40px;border-radius:50%;border:1.5px solid #f3c9a8;display:grid;place-items:center;font-family:"Cormorant Garamond",serif;font-size:1.5rem;color:#f3c9a8}
+.logo span{font-family:"Cormorant Garamond",serif;font-size:1.3rem;letter-spacing:.12em}
+nav ul{list-style:none;display:flex;gap:1.8rem;align-items:center}nav ul a{text-decoration:none;font-size:.88rem;letter-spacing:.04em;opacity:.85;transition:.2s}nav ul a:hover{opacity:1;color:#f3c9a8}
+.navcta{background:var(--te);padding:.5rem 1.1rem;border-radius:30px;opacity:1!important}
+#mb{display:none;background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer}
+@media(max-width:760px){#mb{display:block}nav ul{display:none;position:absolute;top:68px;left:0;right:0;flex-direction:column;background:var(--az2);padding:1.4rem;gap:1.1rem}nav ul.on{display:flex}}
+/* hero */
+.hero{position:relative;overflow:hidden;color:#fff;text-align:center;padding:7rem 1.4rem 8rem;background:radial-gradient(ellipse at 80% 10%,rgba(200,100,59,.32),transparent 45%),radial-gradient(ellipse at 10% 90%,rgba(107,122,58,.35),transparent 45%),linear-gradient(165deg,var(--az),var(--az2) 75%)}
+.leaf{position:absolute;opacity:.18;width:340px;color:var(--ol2)}.leaf.l{left:-60px;top:40px;transform:rotate(-20deg)}.leaf.r{right:-60px;bottom:30px;transform:rotate(160deg)}
+.eyebrow{font-size:.78rem;letter-spacing:.3em;text-transform:uppercase;color:#f3c9a8}
+.hero h1{font-size:clamp(3rem,9vw,6rem);line-height:1;margin:1.2rem 0 .4rem;font-weight:400}.hero h1 em{display:block;font-size:.42em;letter-spacing:.25em;font-style:normal;margin-top:.6rem;opacity:.9}
+.motto{display:inline-block;margin:2.4rem 0;padding:1.4rem 2.4rem;border-top:1px solid rgba(243,201,168,.5);border-bottom:1px solid rgba(243,201,168,.5)}
+.motto .gr{font-family:"Cormorant Garamond",serif;font-size:clamp(1.6rem,4.5vw,2.6rem);letter-spacing:.3em;color:#f3c9a8}
+.motto .tr{font-size:.95rem;opacity:.85;letter-spacing:.08em}
+.btn{display:inline-block;margin:.4rem;padding:.95rem 2rem;border-radius:40px;text-decoration:none;font-weight:500;letter-spacing:.03em;transition:.25s}
+.b1{background:var(--te);color:#fff}.b1:hover{background:#b35530;transform:translateY(-2px)}.b2{border:1px solid rgba(255,255,255,.7);color:#fff}.b2:hover{background:#fff;color:var(--az)}
+.key{height:22px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='22' viewBox='0 0 44 22'%3E%3Cpath d='M0 21h8V5h16v12h-8V9h-4v12h32' fill='none' stroke='%23c8643b' stroke-width='2'/%3E%3C/svg%3E") repeat-x center;opacity:.8}
+/* sections */
+section{padding:6rem 0}.head{text-align:center;max-width:640px;margin:0 auto 3.2rem}
+.k{color:var(--te);letter-spacing:.25em;font-size:.75rem;text-transform:uppercase;font-weight:700}
+h2{font-size:clamp(2.1rem,5vw,3.2rem);color:var(--az);line-height:1.15;margin-top:.6rem}
+.orn{width:70px;height:2px;background:var(--ol);margin:1.2rem auto 0}
+.story{display:grid;gap:2.4rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.story div{padding-left:1.2rem;border-left:2px solid var(--ol2)}.story h3{font-size:1.5rem;color:var(--az);margin-bottom:.4rem}
+/* menu */
+.menu{background:#fff}
+.pills{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;margin-bottom:2.6rem}
+.pill{border:1px solid #d9d3c7;background:var(--cr);padding:.45rem 1.1rem;border-radius:30px;font-size:.85rem;cursor:pointer;transition:.2s;font-family:inherit;color:var(--tx)}
+.pill.on,.pill:hover{background:var(--az);color:#fff;border-color:var(--az)}
+.grid{display:grid;gap:1.6rem;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.card{background:var(--cr);border-radius:18px;padding:1.8rem;transition:.25s;border:1px solid #eee7da}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(13,59,102,.1)}
+.card .tag{display:inline-block;font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ol);font-weight:700;margin-bottom:.4rem}
+.card h3{font-size:1.75rem;color:var(--az);margin-bottom:1rem}
+.it{display:flex;align-items:baseline;gap:.5rem;padding:.45rem 0}.it .n{font-weight:500}.it .d{flex:1;border-bottom:1px dotted #c9c1b1;transform:translateY(-4px)}.it .p{color:var(--te);font-weight:700}
+.hide{display:none}
+.note{font-size:.82rem;opacity:.7;margin-top:2rem;text-align:center;font-style:italic}
+/* quotes */
+.q{background:#fff;border:0;position:relative;padding-top:2.6rem}.q:before{content:"“";position:absolute;top:-.2rem;left:1.4rem;font-family:"Cormorant Garamond",serif;font-size:5rem;color:var(--te);opacity:.5;line-height:1}
+.q p{font-family:"Cormorant Garamond",serif;font-size:1.3rem;font-style:italic;line-height:1.5}.q small{display:block;margin-top:1rem;color:var(--ol);letter-spacing:.1em;font-size:.75rem;text-transform:uppercase}
+/* location */
+.dark{background:var(--az2);color:#fff}.dark h2{color:#fff}.dark .orn{background:var(--te)}
+.loc{display:grid;gap:2.4rem;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-items:start}
+.addr{font-family:"Cormorant Garamond",serif;font-size:1.5rem;line-height:1.4;margin-bottom:1.6rem}
+table{width:100%;border-collapse:collapse}td{padding:.7rem 0;border-bottom:1px solid rgba(255,255,255,.12)}td:last-child{text-align:right;color:#f3c9a8}
+.dark .note{text-align:left}
+iframe{width:100%;height:380px;border:0;border-radius:18px}
+/* contact */
+.ct{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.ct a.card{text-decoration:none;display:block;background:#fff}.ct .lbl{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--te);font-weight:700}.ct .val{font-size:1.05rem;color:var(--az);margin-top:.4rem;word-break:break-word}
+footer{background:var(--az3);color:#c9d3dd;padding:4rem 0 2rem;font-size:.9rem}
+.fg{display:grid;gap:2rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}footer h4{color:#f3c9a8;font-weight:500;letter-spacing:.15em;font-size:.75rem;text-transform:uppercase;margin-bottom:.8rem}footer a{text-decoration:none}footer a:hover{color:#fff}
+.copy{text-align:center;margin-top:3rem;padding-top:1.6rem;border-top:1px solid rgba(255,255,255,.1);font-size:.8rem;opacity:.7}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><symbol id="olive" viewBox="0 0 200 200"><path d="M20 180C70 120 120 70 185 20" stroke="currentColor" stroke-width="3" fill="none"/><g fill="currentColor"><ellipse cx="55" cy="140" rx="26" ry="8" transform="rotate(-50 55 140)"/><ellipse cx="80" cy="128" rx="26" ry="8" transform="rotate(20 80 128)"/><ellipse cx="90" cy="100" rx="26" ry="8" transform="rotate(-55 90 100)"/><ellipse cx="118" cy="92" rx="26" ry="8" transform="rotate(15 118 92)"/><ellipse cx="128" cy="62" rx="26" ry="8" transform="rotate(-55 128 62)"/><ellipse cx="155" cy="55" rx="24" ry="7" transform="rotate(10 155 55)"/><circle cx="70" cy="112" r="7"/><circle cx="140" cy="78" r="7"/></g></symbol></svg>
+<nav><div class="wrap"><a class="logo" href="#"><div class="mark">Γ</div><span>GEORGIOS</span></a><button id="mb" aria-label="Menú">☰</button>
+<ul id="nl"><li><a href="#historia">Historia</a></li><li><a href="#menu">Menú</a></li><li><a href="#opiniones">Opiniones</a></li><li><a href="#ubicacion">Ubicación</a></li><li><a href="#contacto">Contacto</a></li><li><a class="navcta" href="https://www.ubereats.com/ec-en/store/georgios-mediterranean-grill/Y_GYSEYWSGGohWeYuKqBdQ" target="_blank" rel="noopener">Pedir</a></li></ul></div></nav>
+<header class="hero"><svg class="leaf l"><use href="#olive"/></svg><svg class="leaf r"><use href="#olive"/></svg>
+<p class="eyebrow">Cocina greco-chipriota · La Puntilla, Samborondón</p>
+<h1>Georgios<em>MEDITERRANEAN GRILL</em></h1>
+<div class="motto"><div class="gr">ΥΓΕΙΑ · ΑΓΑΠΗ · ΧΑΡΑ</div><div class="tr">Ygia · Agapi · Xara — Salud, Amor y Felicidad</div></div><br>
+<a class="btn b1" href="https://www.ubereats.com/ec-en/store/georgios-mediterranean-grill/Y_GYSEYWSGGohWeYuKqBdQ" target="_blank" rel="noopener">Pedir ahora</a><a class="btn b2" href="#ubicacion">Cómo llegar</a></header>
+<div class="key"></div>
+<section id="historia"><div class="wrap"><div class="head"><p class="k">Nuestra historia</p><h2>Una expresión de la cultura greco-chipriota en Guayaquil</h2><div class="orn"></div></div>
+<div class="story"><div><h3>Raíces familiares</h3><p>Georgios nació para mantener viva la cultura de la cocina griega y chipriota junto a los hijos del propietario aquí en Ecuador.</p></div>
+<div><h3>Cocina mediterránea</h3><p>Vegetales de temporada, aceite de oliva y yogur: comida saludable, fresca y ligera, en un ambiente familiar y casual.</p></div>
+<div><h3>Calidad estricta</h3><p>Somos estrictos con la calidad de cada ingrediente, porque ahí empieza el buen sabor.</p></div></div></div></section>
+<section id="menu" class="menu"><div class="wrap"><div class="head"><p class="k">Menú destacado</p><h2>Sabores del Mediterráneo</h2><div class="orn"></div></div>
+<div class="pills" id="pills"><button class="pill on" data-c="all">Todo</button><button class="pill" data-c="souv">Souvlaki</button><button class="pill" data-c="gyro">Gyro</button><button class="pill" data-c="plat">Plater</button><button class="pill" data-c="tip">Típicos</button><button class="pill" data-c="san">Sánduches</button><button class="pill" data-c="piz">Pizzas</button><button class="pill" data-c="ens">Ensaladas</button><button class="pill" data-c="beb">Bebidas</button></div>
+<div class="grid" id="cards">
+<div class="card" data-c="souv"><span class="tag">Brochetas a la parrilla</span><h3>Souvlaki</h3><div class="it"><span class="n">Pollo</span><span class="d"></span><span class="p">$13,50</span></div><div class="it"><span class="n">Cerdo</span><span class="d"></span><span class="p">$13,50</span></div><div class="it"><span class="n">Lomo fino</span><span class="d"></span><span class="p">$14,50</span></div><div class="it"><span class="n">Vegetariano</span><span class="d"></span><span class="p">$11,00</span></div></div>
+<div class="card" data-c="gyro"><span class="tag">Clásico griego</span><h3>Gyro</h3><div class="it"><span class="n">Pollo</span><span class="d"></span><span class="p">$12,50</span></div><div class="it"><span class="n">Cerdo</span><span class="d"></span><span class="p">$12,50</span></div></div>
+<div class="card" data-c="plat"><span class="tag">Para compartir</span><h3>Plater</h3><div class="it"><span class="n">Pollo</span><span class="d"></span><span class="p">$26,00</span></div><div class="it"><span class="n">Cerdo</span><span class="d"></span><span class="p">$26,00</span></div></div>
+<div class="card" data-c="tip"><span class="tag">De la casa</span><h3>Típicos</h3><div class="it"><span class="n">Keftedes</span><span class="d"></span><span class="p">$13,50</span></div></div>
+<div class="card" data-c="san"><span class="tag">Sánduches</span><h3>Sánduches</h3><div class="it"><span class="n">Gyro Souvlaki</span><span class="d"></span><span class="p">$9,00</span></div></div>
+<div class="card" data-c="piz"><span class="tag">Pizzas</span><h3>Pizzas</h3><div class="it"><span class="n">Pizza Griega</span><span class="d"></span><span class="p">$9,00</span></div><div class="it"><span class="n">Pizza Gyro</span><span class="d"></span><span class="p">$9,00</span></div></div>
+<div class="card" data-c="ens"><span class="tag">Frescas</span><h3>Ensaladas</h3><div class="it"><span class="n">Ensalada Griega</span><span class="d"></span><span class="p">$15,00</span></div></div>
+<div class="card" data-c="beb"><span class="tag">Bebidas</span><h3>Bebidas</h3><div class="it"><span class="n">Coca Cola</span><span class="d"></span><span class="p">$2,50</span></div></div>
+</div><p class="note">Precios de referencia en dólares, según el menú publicado en delivery. Pueden variar en el local.</p></div></section>
+<section id="opiniones"><div class="wrap"><div class="head"><p class="k">Opiniones</p><h2>Lo que dicen nuestros clientes</h2><div class="orn"></div></div><div class="grid">
+<div class="card q"><p>Déjenme decirles que he disfrutado cada bocado. Es lo mejor que he comido en mucho tiempo, todo riquísimo 100% calidad y sabor. Volveré a pedir definitivamente.</p><small>Cliente</small></div>
+<div class="card q"><p>Casi me desmayo con el pan !!! qué delicia</p><small>Cliente</small></div>
+<div class="card q"><p>Todo excelente, presentación, sabor - riquísimo</p><small>Cliente</small></div>
+<div class="card q"><p>Riquísimo, me encantó. La comida súper ligera y sazonada en su punto.</p><small>Cliente</small></div></div></div></section>
+<div class="key"></div>
+<section id="ubicacion" class="dark"><div class="wrap"><div class="head"><p class="k">Ubicación y horarios</p><h2>Visítanos en La Puntilla</h2><div class="orn"></div></div><div class="loc">
+<div><p class="addr">CC Buena Vista Plaza, Edificio 1, Local 7, Planta Alta<br>Sector La Puntilla, Samborondón</p>
+<table><tr><td>Lunes</td><td>13:00 – 22:00</td></tr><tr><td>Martes a viernes</td><td>13:00 – 22:15</td></tr><tr><td>Sábado</td><td>13:00 – 22:00</td></tr><tr><td>Domingo</td><td>12:30 – 21:30</td></tr></table>
+<p class="note">Horarios según delivery publicado; confirma por teléfono.</p><br><a class="btn b1" href="https://www.google.com/maps/search/?api=1&query=CC+Buena+Vista+Plaza+La+Puntilla+Samborondon" target="_blank" rel="noopener">Abrir en Google Maps</a></div>
+<iframe loading="lazy" title="Mapa" src="https://www.openstreetmap.org/export/embed.html?bbox=-79.88%2C-2.16%2C-79.85%2C-2.13&amp;layer=mapnik"></iframe></div></div></section>
+<section id="contacto"><div class="wrap"><div class="head"><p class="k">Contacto</p><h2>Escríbenos o pide a domicilio</h2><div class="orn"></div></div><div class="ct">
+<a class="card" href="tel:+59343755248"><div class="lbl">Teléfono</div><div class="val">+593 4 375 5248</div></a>
+<a class="card" href="mailto:georgiosmediterraneangrill@gmail.com"><div class="lbl">Correo</div><div class="val">georgiosmediterraneangrill@gmail.com</div></a>
+<a class="card" href="https://www.instagram.com/georgiesmediterranean/" target="_blank" rel="noopener"><div class="lbl">Instagram</div><div class="val">@georgiesmediterranean</div></a>
+<a class="card" href="https://facebook.com/108301051127716" target="_blank" rel="noopener"><div class="lbl">Facebook</div><div class="val">Georgios Mediterranean</div></a>
+<a class="card" href="https://www.ubereats.com/ec-en/store/georgios-mediterranean-grill/Y_GYSEYWSGGohWeYuKqBdQ" target="_blank" rel="noopener"><div class="lbl">Delivery</div><div class="val">Uber Eats · también en Rappi</div></a></div></div></section>
+<footer><div class="wrap"><div class="fg">
+<div><a class="logo" href="#"><div class="mark">Γ</div><span style="color:#fff">GEORGIOS</span></a><p style="margin-top:1rem">Cocina greco-chipriota en Samborondón.<br><span class="serif" style="color:#f3c9a8;font-size:1.1rem">Ygia · Agapi · Xara</span></p></div>
+<div><h4>Visítanos</h4><p>CC Buena Vista Plaza, Edif. 1, Local 7, Planta Alta<br>La Puntilla, Samborondón</p></div>
+<div><h4>Contacto</h4><p><a href="tel:+59343755248">+593 4 375 5248</a><br><a href="mailto:georgiosmediterraneangrill@gmail.com">georgiosmediterraneangrill@gmail.com</a><br><a href="https://www.instagram.com/georgiesmediterranean/">Instagram</a> · <a href="https://facebook.com/108301051127716">Facebook</a></p></div></div>
+<div class="copy">© Georgios Mediterranean Grill · Samborondón, Ecuador</div></div></footer>
+<script>
+mb.onclick=()=>nl.classList.toggle('on');nl.onclick=e=>{if(e.target.tagName=='A')nl.classList.remove('on')};
+pills.onclick=e=>{const c=e.target.dataset.c;if(!c)return;pills.querySelectorAll('.pill').forEach(p=>p.classList.toggle('on',p===e.target));cards.querySelectorAll('.card').forEach(k=>k.classList.toggle('hide',c!='all'&&k.dataset.c!=c))};
+</script></body></html>
